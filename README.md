@@ -148,7 +148,7 @@ Chess-Game-CPP/
 |-- README.md
 ```
 
-### `PfProject.cpp`
+### `Chess.cpp`
 
 The main chess application.
 
@@ -162,23 +162,6 @@ Contains:
 - Save/load functionality
 - Resignation and draw handling
 - Main game loop
-
-### `Source.cpp`
-
-An earlier, smaller chess implementation demonstrating:
-
-- Board creation
-- Coordinate selection
-- Basic pawn movement
-- Console board updates
-
-This file contains a separate `main()` function and should be compiled independently.
-
-### `time.cpp`
-
-A small experimental program demonstrating C++ time functions.
-
-This file also contains its own `main()` function and should be compiled independently.
 
 ---
 
@@ -200,8 +183,8 @@ The main application uses Windows-specific headers:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Emaan-Munib/Chess-Game-CPP.git
-cd Chess-Game-CPP
+git clone https://github.com/Emaan-Munib/Chess_CPP.git
+cd Chess_CPP
 ```
 
 ### Compile the Main Game
@@ -209,7 +192,7 @@ cd Chess-Game-CPP
 Using a compatible Windows C++ compiler:
 
 ```bash
-g++ PfProject.cpp -o ChessGame.exe
+g++ Chess.cpp -o ChessGame.exe
 ```
 
 ### Run the Game
@@ -218,7 +201,7 @@ g++ PfProject.cpp -o ChessGame.exe
 ChessGame.exe
 ```
 
-**Important:** Compile `PfProject.cpp` separately. The other source files contain independent `main()` functions.
+**Important:** Compile `Chess.cpp` separately. The other source files contain independent `main()` functions.
 
 Compilation and execution have not been verified in this repository package.
 
